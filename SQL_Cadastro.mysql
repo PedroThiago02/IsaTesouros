@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS 'Usuários';
+
+
+CREATE TABLE 'Usuários' (
+'id' INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+'nome' VARCHAR(45) NOT NULL,
+'data_nasc' DATE NOT NULL,
+'email' VARCHAR(110) NOT NULL,
+'senha' VARCHAR(45) NOT NULL);
+/**
+@table: Usuários
+@location: 360.0 735.0
+*/
+
